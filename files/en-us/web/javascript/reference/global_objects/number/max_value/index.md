@@ -2,11 +2,6 @@
 title: Number.MAX_VALUE
 slug: Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE
 page-type: javascript-static-data-property
-tags:
-  - JavaScript
-  - Number
-  - Property
-  - Reference
 browser-compat: javascript.builtins.Number.MAX_VALUE
 ---
 
@@ -53,4 +48,4 @@ if (num1 * num2 <= Number.MAX_VALUE) {
 ## See also
 
 - {{jsxref("Number.MIN_VALUE")}}
-- The {{jsxref("Number")}} object it belongs to
+- {{jsxref("Number")}}

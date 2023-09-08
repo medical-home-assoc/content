@@ -1,13 +1,7 @@
 ---
 title: Content-Security-Policy-Report-Only
 slug: Web/HTTP/Headers/Content-Security-Policy-Report-Only
-tags:
-  - CSP
-  - HTTP
-  - HTTPS
-  - Reference
-  - Security
-  - header
+page-type: http-header
 browser-compat: http.headers.Content-Security-Policy-Report-Only
 ---
 
@@ -43,13 +37,13 @@ Content-Security-Policy-Report-Only: <policy-directive>; <policy-directive>
 
 ## Directives
 
-The directives of the {{HTTPHeader("Content-Security-Policy")}} header can also be applied to `Content-Security-Policy-Report-Only`.
+The directives of the {{HTTPHeader("Content-Security-Policy")}} header can also be applied to `Content-Security-Policy-Report-Only`, except for the `sandbox` directive, which is ignored when used with `Content-Security-Policy-Report-Only`.
 
 The CSP {{CSP("report-to")}} directive should be used with this header, otherwise this header will be an expensive no-op machine.
 
 ## Examples
 
-This header reports violations that would have occurred. You can use this to iteratively work on your content security policy. You observe how your site behaves, watching for violation reports, or [malware redirects](https://secure.wphackedhelp.com/blog/wordpress-malware-redirect-hack-cleanup/), then choose the desired policy enforced by the {{HTTPHeader("Content-Security-Policy")}} header.
+This header reports violations that would have occurred. You can use this to iteratively work on your content security policy. You observe how your site behaves, watching for violation reports, then choose the desired policy enforced by the {{HTTPHeader("Content-Security-Policy")}} header.
 
 ```http
 Content-Security-Policy-Report-Only: default-src https:; report-to /csp-violation-report-endpoint/
@@ -95,7 +89,7 @@ Content-Security-Policy-Report-Only: default-src 'none'; style-src cdn.example.c
 The HTML of `signup.html` looks like this:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />

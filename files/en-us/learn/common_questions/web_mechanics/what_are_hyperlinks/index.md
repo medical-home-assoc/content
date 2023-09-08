@@ -1,11 +1,7 @@
 ---
 title: What are hyperlinks?
 slug: Learn/Common_questions/Web_mechanics/What_are_hyperlinks
-tags:
-  - Beginner
-  - Infrastructure
-  - Navigation
-  - NeedsActiveLearning
+page-type: learn-faq
 ---
 
 {{QuicklinksWithSubPages("Learn/Common_questions")}}

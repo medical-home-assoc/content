@@ -2,11 +2,6 @@
 title: "SyntaxError: missing ) after argument list"
 slug: Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list
 page-type: javascript-error
-tags:
-  - Error
-  - Errors
-  - JavaScript
-  - SyntaxError
 ---
 
 {{jsSidebar("Errors")}}
@@ -17,7 +12,7 @@ string.
 
 ## Message
 
-```
+```plain
 SyntaxError: missing ) after argument list (V8-based & Firefox)
 SyntaxError: Unexpected identifier 'x'. Expected ')' to end an argument list. (Safari)
 ```
@@ -37,7 +32,7 @@ Because there is no "+" operator to concatenate the string, JavaScript expects t
 argument for the `log` function to be just `"PI: "`. In that case,
 it should be terminated by a closing parenthesis.
 
-```js example-bad
+```js-nolint example-bad
 console.log("PI: " Math.PI);
 // SyntaxError: missing ) after argument list
 ```
@@ -53,12 +48,12 @@ Alternatively, you can consider using a [template literal](/en-US/docs/Web/JavaS
 
 ```js example-good
 console.log(`PI: ${Math.PI}`);
-console.log("PI: ", Math.PI);
+console.log("PI:", Math.PI);
 ```
 
 ### Unterminated strings
 
-```js example-bad
+```js-nolint example-bad
 console.log('"Java" + "Script" = \"' + "Java" + 'Script\");
 // SyntaxError: missing ) after argument list
 ```
@@ -75,4 +70,4 @@ console.log('"Java" + "Script" = "' + "Java" + 'Script"');
 
 ## See also
 
-- [Functions](/en-US/docs/Web/JavaScript/Guide/Functions)
+- [Functions](/en-US/docs/Web/JavaScript/Guide/Functions) guide

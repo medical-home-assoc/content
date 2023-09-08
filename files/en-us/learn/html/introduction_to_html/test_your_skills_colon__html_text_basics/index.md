@@ -1,12 +1,7 @@
 ---
 title: "Test your skills: HTML text basics"
 slug: Learn/HTML/Introduction_to_HTML/Test_your_skills:_HTML_text_basics
-tags:
-  - Beginner
-  - HTML
-  - Learn
-  - Text
-  - test your skills
+page-type: learn-module-assessment
 ---
 
 {{learnsidebar}}

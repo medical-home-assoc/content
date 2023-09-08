@@ -1,19 +1,8 @@
 ---
-title: console.trace()
+title: "console: trace() method"
+short-title: trace()
 slug: Web/API/console/trace
 page-type: web-api-instance-method
-tags:
-  - API
-  - Chrome
-  - DOM
-  - Debugging
-  - Firefox
-  - Method
-  - String
-  - Web Development
-  - console.trace()
-  - trace
-  - web console
 browser-compat: api.console.trace
 ---
 
@@ -62,7 +51,7 @@ foo();
 
 In the console, the following trace will be displayed:
 
-```
+```plain
 bar
 foo
 <anonymous>

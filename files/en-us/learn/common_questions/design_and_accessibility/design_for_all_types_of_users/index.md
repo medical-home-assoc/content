@@ -1,14 +1,7 @@
 ---
 title: How can we design for all types of users?
 slug: Learn/Common_questions/Design_and_accessibility/Design_for_all_types_of_users
-tags:
-  - Accessibility
-  - Beginner
-  - Design
-  - Example
-  - Intro
-  - Mobile
-  - NeedsActiveLearning
+page-type: learn-faq
 ---
 
 {{QuicklinksWithSubPages("Learn/Common_questions")}}
@@ -79,8 +72,6 @@ body {
 
 … you are telling the browser that whatever happens, the font size must be 16 pixels. Modern browsers get around this rule by pretending that you're asking for "16 pixels when the user sets a zoom factor of 100%".
 
-Yet, for many years Internet Explorer adamantly displayed 16 pixels as 16 pixels. In this case, zooming did nothing, even as late as Internet Explorer 8, which we still have to cater to because it's still around.
-
 #### Relative units
 
 Also called _proportional units,_ relative units are computed relative to a parent element. Relative units are friendlier to accessibility because they respect the settings on the user's system.
@@ -99,7 +90,7 @@ Suppose we wanted a base font size of 16px and an h1 (main heading) at the equiv
 Here is the HTML we're using:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -167,7 +158,7 @@ span.subheading {
 }
 ```
 
-Easier, isn't it? This works as of [Internet Explorer 9 and in every other current browser](https://caniuse.com/#search=rem), so please feel free to use this unit.
+Easier, isn't it? This works as of [every current browser](https://caniuse.com/#search=rem), so please feel free to use this unit.
 
 > **Note:** You may notice Opera Mini does not support font sizing in rem. It will end up setting its own font size, so don't bother feeding it font units.
 
@@ -191,7 +182,7 @@ Of course the problem doesn't go away when we switch to the Web. The reader's ey
 To achieve this, you can specify a size for your text's container. Let's consider this HTML:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -254,5 +245,5 @@ You must also provide alternatives to multimedia content.
 
 Some users may choose to display images, but still have limited bandwidth available, especially in developing countries and on mobile devices. If you want a successful website, please compress your images. There are various tools to help you, either online or local:
 
-- **Installed software.** [ImageOptim](https://imageoptim.com/api) (Mac), [OptiPNG](http://optipng.sourceforge.net/) (all platforms), [PNGcrush](https://pmt.sourceforge.io/pngcrush/) (DOS, Unix/Linux)
+- **Installed software.** [ImageOptim](https://imageoptim.com/api) (Mac), [OptiPNG](https://optipng.sourceforge.net/) (all platforms), [PNGcrush](https://pmt.sourceforge.io/pngcrush/) (DOS, Unix/Linux)
 - **Online tools.** Dynamic drive's [Online Image Optimizer](https://tools.dynamicdrive.com/imageoptimizer/) (which can convert automatically from one format to another if it's more bandwidth-efficient)

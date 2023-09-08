@@ -2,11 +2,9 @@
 title: WCAG
 slug: Glossary/WCAG
 page-type: glossary-definition
-tags:
-  - Accessibility
-  - WCAG
-  - Web Guidelines
 ---
+
+{{GlossarySidebar}}
 
 _Web Content Accessibility Guidelines_ (**WCAG**) are a recommendation published by the {{Glossary("WAI","Web Accessibility Initiative")}} group at the {{Glossary("W3C")}}. They outline a set of guidelines for making content accessible primarily for people with disabilities but also for limited-resource devices such as mobile phones.
 

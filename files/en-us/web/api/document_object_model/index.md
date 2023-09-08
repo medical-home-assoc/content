@@ -2,15 +2,6 @@
 title: Document Object Model (DOM)
 slug: Web/API/Document_Object_Model
 page-type: web-api-overview
-tags:
-  - API
-  - DOM
-  - Document
-  - Document Object Model
-  - Guide
-  - Overview
-  - Reference
-  - Web
 spec-urls: https://dom.spec.whatwg.org/
 ---
 
@@ -53,7 +44,6 @@ To learn more about what the DOM is and how it represents documents, see our art
 - {{DOMxRef("MutationRecord")}}
 - {{DOMxRef("NamedNodeMap")}}
 - {{DOMxRef("Node")}}
-- {{DOMxRef("NodeFilter")}}
 - {{DOMxRef("NodeIterator")}}
 - {{DOMxRef("NodeList")}}
 - {{DOMxRef("ProcessingInstruction")}}
@@ -98,9 +88,6 @@ The HTML DOM API provides access to various browser features such as tabs and wi
 ### SVG element interfaces
 
 - {{DOMxRef("SVGAElement")}}
-- {{DOMxRef("SVGAltGlyphElement")}} {{Deprecated_Inline}}
-- {{DOMxRef("SVGAltGlyphDefElement")}} {{Deprecated_Inline}}
-- {{DOMxRef("SVGAltGlyphItemElement")}} {{Deprecated_Inline}}
 - {{DOMxRef("SVGAnimationElement")}}
 - {{DOMxRef("SVGAnimateElement")}}
 - {{DOMxRef("SVGAnimateColorElement")}} {{Deprecated_Inline}}
@@ -202,7 +189,6 @@ Here are the DOM APIs for data types used in the definitions of SVG properties a
 - {{DOMxRef("SVGElementInstanceList")}}
 - {{DOMxRef("SVGLength")}}
 - {{DOMxRef("SVGLengthList")}}
-- {{DOMxRef("SVGMatrix")}} {{Deprecated_Inline}}
 - {{DOMxRef("SVGNameList")}}
 - {{DOMxRef("SVGNumber")}}
 - {{DOMxRef("SVGNumberList")}}
@@ -247,7 +233,6 @@ Here are the DOM APIs for data types used in the definitions of SVG properties a
 - {{DOMxRef("SVGAnimatedNumber")}}
 - {{DOMxRef("SVGAnimatedNumberList")}}
 - {{DOMxRef("SVGAnimatedPathData")}} {{Deprecated_Inline}}
-- {{DOMxRef("SVGAnimatedPoints")}}
 - {{DOMxRef("SVGAnimatedPreserveAspectRatio")}}
 - {{DOMxRef("SVGAnimatedRect")}}
 - {{DOMxRef("SVGAnimatedString")}}

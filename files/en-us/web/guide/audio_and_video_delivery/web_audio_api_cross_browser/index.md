@@ -1,8 +1,7 @@
 ---
 title: Writing Web Audio API code that works in every browser
 slug: Web/Guide/Audio_and_video_delivery/Web_Audio_API_cross_browser
-tags:
-  - API
+page-type: guide
 ---
 
 {{QuickLinksWithSubPages("/en-US/docs/Web/Guide/Audio_and_video_delivery")}}

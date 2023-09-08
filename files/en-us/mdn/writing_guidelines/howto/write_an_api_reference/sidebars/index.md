@@ -1,9 +1,7 @@
 ---
 title: API reference sidebars
 slug: MDN/Writing_guidelines/Howto/Write_an_API_reference/Sidebars
-tags:
-  - meta
-  - writing-guide
+page-type: mdn-writing-guide
 ---
 
 {{MDNSidebar}}

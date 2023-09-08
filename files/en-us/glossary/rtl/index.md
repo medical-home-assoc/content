@@ -2,10 +2,9 @@
 title: RTL (Right to Left)
 slug: Glossary/RTL
 page-type: glossary-definition
-tags:
-  - Composing
-  - Localization
 ---
+
+{{GlossarySidebar}}
 
 **RTL** (**Right To Left**) is a {{Glossary("locale")}} property indicating that text is written from right to left.
 

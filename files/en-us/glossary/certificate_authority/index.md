@@ -2,10 +2,9 @@
 title: Certificate authority
 slug: Glossary/Certificate_authority
 page-type: glossary-definition
-tags:
-  - Cryptography
-  - Security
 ---
+
+{{GlossarySidebar}}
 
 A certificate authority (CA) is an organization that {{Glossary("Signature/Security", "signs")}} {{Glossary("Digital certificate", "digital certificates")}} and their associated {{Glossary("Key", "public keys")}}, thereby asserting that the contained information and keys are correct.
 

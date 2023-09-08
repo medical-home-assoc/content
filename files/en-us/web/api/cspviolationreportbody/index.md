@@ -2,8 +2,6 @@
 title: CSPViolationReportBody
 slug: Web/API/CSPViolationReportBody
 page-type: web-api-interface
-tags:
-
 browser-compat: api.CSPViolationReportBody
 ---
 
@@ -78,7 +76,7 @@ const observer = new ReportingObserver(
   {
     types: ["csp-violation"],
     buffered: true,
-  }
+  },
 );
 
 observer.observe();

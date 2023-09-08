@@ -1,17 +1,14 @@
 ---
-title: Highlight.priority
+title: "Highlight: priority property"
+short-title: priority
 slug: Web/API/Highlight/priority
 page-type: web-api-instance-property
-tags:
-  - API
-  - Property
-  - CSS Custom Highlight API
-  - Reference
-  - priority
+status:
+  - experimental
 browser-compat: api.Highlight.priority
 ---
 
-{{APIRef("CSS Custom Highlight API")}}
+{{APIRef("CSS Custom Highlight API")}}{{SeeCompatTable}}
 
 It is possible to create {{domxref("Range")}} objects that overlap in a document.
 

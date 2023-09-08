@@ -2,14 +2,6 @@
 title: "Advanced techniques: Creating and sequencing audio"
 slug: Web/API/Web_Audio_API/Advanced_techniques
 page-type: guide
-tags:
-  - API
-  - Advanced
-  - Audio
-  - Guide
-  - Reference
-  - Web Audio API
-  - sequencer
 ---
 
 {{DefaultAPISidebar("Web Audio API")}}
@@ -160,7 +152,7 @@ attackControl.addEventListener(
   (ev) => {
     attackTime = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 
 let releaseTime = 0.5;
@@ -170,7 +162,7 @@ releaseControl.addEventListener(
   (ev) => {
     releaseTime = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 ```
 
@@ -279,7 +271,7 @@ hzControl.addEventListener(
   (ev) => {
     pulseHz = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 
 let lfoHz = 30;
@@ -289,7 +281,7 @@ lfoControl.addEventListener(
   (ev) => {
     lfoHz = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 ```
 
@@ -426,7 +418,7 @@ durControl.addEventListener(
   (ev) => {
     noiseDuration = parseFloat(ev.target.value);
   },
-  false
+  false,
 );
 
 let bandHz = 1000;
@@ -436,7 +428,7 @@ bandControl.addEventListener(
   (ev) => {
     bandHz = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 ```
 
@@ -561,7 +553,7 @@ rateControl.addEventListener(
   (ev) => {
     playbackRate = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 ```
 
@@ -602,7 +594,7 @@ bpmControl.addEventListener(
   (ev) => {
     tempo = parseInt(ev.target.value, 10);
   },
-  false
+  false,
 );
 ```
 

@@ -2,15 +2,6 @@
 title: contenteditable
 slug: Web/HTML/Global_attributes/contenteditable
 page-type: html-attribute
-tags:
-  - Editing
-  - Global attributes
-  - HTML
-  - Reference
-  - Text Editing
-  - contenteditable
-  - text entry
-  - text input
 browser-compat: html.global_attributes.contenteditable
 ---
 
@@ -24,6 +15,7 @@ The attribute must take one of the following values:
 
 - `true` or an _empty string_, which indicates that the element is editable.
 - `false`, which indicates that the element is not editable.
+- `plaintext-only`, which indicates that the element's raw text is editable, but rich text formatting is disabled.
 
 If the attribute is given without a value, like `<label contenteditable>Example Label</label>`, its value is treated as an empty string.
 

@@ -2,12 +2,6 @@
 title: Number.parseFloat()
 slug: Web/JavaScript/Reference/Global_Objects/Number/parseFloat
 page-type: javascript-static-method
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Number
-  - Polyfill
 browser-compat: javascript.builtins.Number.parseFloat
 ---
 
@@ -59,5 +53,5 @@ See {{jsxref("parseFloat", "parseFloat()")}} for more detail and examples.
 ## See also
 
 - [Polyfill of `Number.parseFloat` in `core-js`](https://github.com/zloirock/core-js#ecmascript-number)
-- {{jsxref("Number")}}: The object this method belongs to.
-- The global {{jsxref("parseFloat", "parseFloat()")}} method.
+- {{jsxref("Number")}}
+- {{jsxref("parseFloat", "parseFloat()")}}

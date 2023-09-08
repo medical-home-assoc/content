@@ -2,9 +2,6 @@
 title: Criteria for inclusion on MDN Web Docs
 slug: MDN/Writing_guidelines/What_we_write/Criteria_for_inclusion
 page-type: mdn-writing-guide
-tags:
-  - meta
-  - writing-guide
 ---
 
 {{MDNSidebar}}
@@ -142,7 +139,7 @@ If you went through the proposal submission process, then you should already hav
 
 Each project is different, but we'd roughly recommend something like this:
 
-```
+```plain
 Landing page
 |
 ------Reference

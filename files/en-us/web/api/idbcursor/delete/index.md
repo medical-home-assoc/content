@@ -1,16 +1,8 @@
 ---
-title: IDBCursor.delete()
+title: "IDBCursor: delete() method"
+short-title: delete()
 slug: Web/API/IDBCursor/delete
 page-type: web-api-instance-method
-tags:
-  - API
-  - Database
-  - IDBCursor
-  - IndexedDB
-  - Method
-  - Reference
-  - Storage
-  - delete
 browser-compat: api.IDBCursor.delete
 ---
 
@@ -81,7 +73,7 @@ function deleteResult() {
         const request = cursor.delete();
         request.onsuccess = () => {
           console.log(
-            "Deleted that mediocre album from 1984. Even Power windows is better."
+            "Deleted that mediocre album from 1984. Even Power windows is better.",
           );
         };
       } else {

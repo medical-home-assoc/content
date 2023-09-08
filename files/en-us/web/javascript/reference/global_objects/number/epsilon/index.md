@@ -2,12 +2,6 @@
 title: Number.EPSILON
 slug: Web/JavaScript/Reference/Global_Objects/Number/EPSILON
 page-type: javascript-static-data-property
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Number
-  - Property
-  - Polyfill
 browser-compat: javascript.builtins.Number.EPSILON
 ---
 
@@ -97,4 +91,4 @@ In addition to magnitude, it is important to consider the _accuracy_ of your inp
 ## See also
 
 - [Polyfill of `Number.EPSILON` in `core-js`](https://github.com/zloirock/core-js#ecmascript-number)
-- The {{jsxref("Number")}} object it belongs to
+- {{jsxref("Number")}}

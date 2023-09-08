@@ -2,9 +2,9 @@
 title: Cookie
 slug: Glossary/Cookie
 page-type: glossary-definition
-tags:
-  - WebMechanics
 ---
+
+{{GlossarySidebar}}
 
 A cookie is a small piece of information left on a visitor's computer by a website, via a web browser.
 

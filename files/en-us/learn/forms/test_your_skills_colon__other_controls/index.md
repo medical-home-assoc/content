@@ -1,15 +1,7 @@
 ---
 title: "Test your skills: Other controls"
 slug: Learn/Forms/Test_your_skills:_Other_controls
-tags:
-  - Assessment
-  - Beginner
-  - Forms
-  - Learn
-  - Select
-  - datalist
-  - test your skills
-  - textarea
+page-type: learn-module-assessment
 ---
 
 {{learnsidebar}}

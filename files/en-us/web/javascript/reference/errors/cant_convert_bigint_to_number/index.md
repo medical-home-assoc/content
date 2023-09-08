@@ -2,11 +2,6 @@
 title: "TypeError: can't convert BigInt to number"
 slug: Web/JavaScript/Reference/Errors/Cant_convert_BigInt_to_number
 page-type: javascript-error
-tags:
-  - Error
-  - Errors
-  - JavaScript
-  - TypeError
 ---
 
 {{jsSidebar("Errors")}}
@@ -15,7 +10,7 @@ The JavaScript exception "can't convert BigInt to number" occurs when an arithme
 
 ## Message
 
-```
+```plain
 TypeError: Cannot mix BigInt and other types, use explicit conversions (V8-based)
 TypeError: BigInts have no unsigned right shift, use >> instead (V8-based)
 TypeError: can't convert BigInt to number (Firefox)

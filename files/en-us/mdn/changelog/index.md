@@ -1,10 +1,7 @@
 ---
 title: MDN Web Docs changelog
 slug: MDN/Changelog
-tags:
-  - Changelog
-  - Contribute
-  - MDN
+page-type: guide
 ---
 
 {{MDNSidebar}}

@@ -1,13 +1,7 @@
 ---
 title: CSS backgrounds and borders
-slug: Web/CSS/CSS_Backgrounds_and_Borders
+slug: Web/CSS/CSS_backgrounds_and_borders
 page-type: css-module
-tags:
-  - CSS
-  - CSS Backgrounds and Borders
-  - Guide
-  - Overview
-  - Reference
 spec-urls: https://drafts.csswg.org/css-backgrounds/
 ---
 
@@ -25,50 +19,11 @@ The properties in this module also let you define whether cells inside a {{HTMLE
 
 This sample of borders, backgrounds, and box shadows consists of centered background images made of linear and radial gradients. A series of box shadows make the border appear to "pop". The element on the left has a border image set. The element on the right has a rounded dotted border.
 
-<!-- intro example -->
+{{EmbedGHLiveSample("css-examples/modules/backgrounds.html", '100%', 430)}}
 
-```html hidden
-<article>
-<div></div>
-<div></div>
-</article>
-```
+The background images are defined with {{cssxref("background-image")}}. The images are centered with {{cssxref("background-position")}}. Different values of the {{cssxref("background-clip")}} property for the multiple background images are used to make the background images stay within the content box. The background color gets clipped to the padding box preventing the background from appearing through the transparent sections for the {{cssxref("border-image")}} and the {{cssxref("border-style", "dotted")}} {{cssxref("border")}}. The rounded corners in the element on the right are created using the {{cssxref("border-radius")}} property. A single {{cssxref("box-shadow")}} declaration is used to set all the shadows, both inset and outset.
 
-```css hidden
-article {display: flex; gap: 10px;}
-div {
-  color: #58ADE3;
-  height: 320px;
-  width: 240px;
-  padding: 20px;
-  margin: 10px;
-  border: dotted 15px; /* defaults to `currentcolor` */
-  border-radius: 100px 0;
-  background-image: 
-    radial-gradient(circle, transparent 60%, currentcolor 60% 70%,transparent 70% ), 
-    linear-gradient(45deg, currentcolor, white),
-    linear-gradient(transparent, transparent);
-    /* the third transparent background image was added to provide space for the background color to show through */
-  background-color: currentcolor;
-  background-position: center;
-  background-size: 60px 60px, 120px 120px;
-  background-clip: content-box, content-box, padding-box; 
-  box-shadow: 
-    inset 5px 5px 5px rgba(0,0,0,0.4), 
-    inset -5px -5px 5px rgba(0,0,0,0.4),
-    5px 5px 5px rgba(0,0,0,0.4), 
-    -5px -5px 5px rgba(0,0,0,0.4);
-}
-div:first-of-type {
-  border-radius: 0;
-  border-image-source: repeating-conic-gradient(from 3deg at 25% 25%, currentColor 0 3deg, transparent 3deg 6deg);
-  border-image-slice: 30;
-}
-```
-
-{{ EmbedLiveSample('Backgrounds_borders_and_box_shadows_in_action', "450", "450") }}
-
-The background images are defined with {{cssxref("background-image")}}. The images are centered with {{cssxref("background-position")}}. Different values of the {{cssxref("background-clip")}} property for the multiple background images are used to make the background images stay within the content box. The background color gets clipped to the padding box preventing the background from appearing through the transparent sections for the {{cssxref("border-image")}} and the {{cssxref("border-style", "dotted")}} {{cssxref("border")}}. The rounded corners in the element on the right are created using the {{cssxref("border-radius")}} property. A single {{cssxref("box-shadow")}} declaration is used to set all the shadows, both inset and outset. To see the code for this sample, [view the source on Github](https://github.com/mdn/content/blob/main/files/en-us/web/css/compositing_and_blending/index.md?plain=1).
+To see the code for this sample, [view the source on GitHub](https://github.com/mdn/css-examples/blob/main/modules/backgrounds.html).
 
 ## Reference
 
@@ -126,17 +81,21 @@ The background images are defined with {{cssxref("background-image")}}. The imag
 
 - {{cssxref("box-shadow")}}
 
+### Data types
+
+- {{cssxref("line-type")}} enumerated type
+
 ## Guides
 
 - [Learn CSS: background and borders](/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
   - : Explains how to implement decorative images using CSS background images.
-- [Using multiple backgrounds](/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds)
+- [Using multiple backgrounds](/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds)
   - : Explains how to set one or more backgrounds on an element.
-- [Resizing background images](/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images)
+- [Resizing background images](/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Resizing_background_images)
   - : Describes how to change the size and repeating behavior of background images.
 - [Learn CSS: the box model](/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
   - : Explains how borders, along with other box model properties, impact the CSS box model.
-- [Using CSS gradients](/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
+- [Using CSS gradients](/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients)
   - : Explains how to create CSS gradient background images.
 
 ## Related concepts
@@ -163,7 +122,7 @@ The background images are defined with {{cssxref("background-image")}}. The imag
 - {{cssxref("box-decoration-break")}} property
 - {{cssxref("text-shadow")}} property
 
-- {{cssxref("url()")}} CSS function
+- {{cssxref("url", "url()")}} CSS function
 - [`<color>`](/en-US/docs/Web/CSS/color) data type
 - [`<image>`](/en-US/docs/Web/CSS/image) data type
 - [`<position>`](/en-US/docs/Web/CSS/position) data type
@@ -177,8 +136,8 @@ The background images are defined with {{cssxref("background-image")}}. The imag
 ## See also
 
 - Interactive tools that let you visually create borders images, rounded corners, and box shadows:
-  - [Border-image generator](/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator)
-  - [Border-radius generator](/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-radius_generator)
-  - [Box-shadow generator](/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator)
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/CSS_Colors/Applying_color), including for borders.
+  - [Border-image generator](/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-image_generator)
+  - [Border-radius generator](/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Border-radius_generator)
+  - [Box-shadow generator](/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator)
+- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/CSS_colors/Applying_color), including for borders.
 - The [`drop-shadow()`](/en-US/docs/Web/CSS/filter-function/drop-shadow) filter function that applies a drop shadow effect to the input image. The function is used by the {{cssxref("filter")}} and {{cssxref("backdrop-filter")}} properties.

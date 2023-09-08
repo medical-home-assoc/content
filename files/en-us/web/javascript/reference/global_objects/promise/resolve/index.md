@@ -2,12 +2,6 @@
 title: Promise.resolve()
 slug: Web/JavaScript/Reference/Global_Objects/Promise/resolve
 page-type: javascript-static-method
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Promise
-  - Reference
 browser-compat: javascript.builtins.Promise.resolve
 ---
 
@@ -110,16 +104,13 @@ p1.then(
   },
 );
 
-// Thenable throws before callback
+// Thenable throws
 // Promise rejects
-const thenable = {
-  then(onFulfilled) {
+const p2 = Promise.resolve({
+  then() {
     throw new TypeError("Throwing");
-    onFulfilled("Resolving");
   },
-};
-
-const p2 = Promise.resolve(thenable);
+});
 p2.then(
   (v) => {
     // not called
@@ -131,14 +122,12 @@ p2.then(
 
 // Thenable throws after callback
 // Promise resolves
-const thenable = {
+const p3 = Promise.resolve({
   then(onFulfilled) {
     onFulfilled("Resolving");
     throw new TypeError("Throwing");
   },
-};
-
-const p3 = Promise.resolve(thenable);
+});
 p3.then(
   (v) => {
     console.log(v); // "Resolving"

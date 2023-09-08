@@ -2,12 +2,6 @@
 title: Logical AND (&&)
 slug: Web/JavaScript/Reference/Operators/Logical_AND
 page-type: javascript-operator
-tags:
-  - JavaScript
-  - Language feature
-  - Logical Operator
-  - Operator
-  - Reference
 browser-compat: javascript.operators.logical_and
 ---
 
@@ -22,7 +16,7 @@ More generally, the operator returns the value of the first {{Glossary("falsy")}
 ## Syntax
 
 ```js-nolint
-expr1 && expr2
+x && y
 ```
 
 ## Description
@@ -59,7 +53,7 @@ As each operand is converted to a boolean, if the result of one conversion is fo
 
 Consider the pseudocode below.
 
-```
+```plain
 (some falsy expression) && expr
 ```
 
@@ -85,9 +79,9 @@ console.log(A() && B());
 
 ### Operator precedence
 
-The AND operator has a higher precedence than the OR operator, meaning the `&&` operator is executed before the `||` operator (see [operator precedence](/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)).
+The AND operator has a higher precedence than the OR operator, meaning the `&&` operator is executed before the `||` operator (see [operator precedence](/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence)).
 
-```js
+```js-nolint
 true || false && false; // true
 true && (false || false); // false
 (2 === 3) || (4 < 0) && (1 === 1); // false

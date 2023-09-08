@@ -2,12 +2,6 @@
 title: hyphenate-limit-chars
 slug: Web/CSS/hyphenate-limit-chars
 page-type: css-property
-tags:
-  - CSS
-  - CSS Property
-  - CSS Text
-  - Reference
-  - recipe:css-property
 browser-compat: css.properties.hyphenate-limit-chars
 ---
 
@@ -92,4 +86,4 @@ p {
 ## See also
 
 - {{cssxref("hyphens")}}
-- [CSS Text module](/en-US/docs/Web/CSS/CSS_Text)
+- [CSS Text module](/en-US/docs/Web/CSS/CSS_text)

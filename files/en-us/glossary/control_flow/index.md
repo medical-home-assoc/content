@@ -2,10 +2,9 @@
 title: Control flow
 slug: Glossary/Control_flow
 page-type: glossary-definition
-tags:
-  - CodingScripting
-  - JavaScript
 ---
+
+{{GlossarySidebar}}
 
 The _control flow_ is the order in which the computer executes statements in a script.
 

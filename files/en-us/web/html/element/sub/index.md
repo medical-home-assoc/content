@@ -1,20 +1,7 @@
 ---
-title: '<sub>: The Subscript element'
+title: "<sub>: The Subscript element"
 slug: Web/HTML/Element/sub
 page-type: html-element
-tags:
-  - Baseline
-  - Element
-  - Footnotes
-  - HTML
-  - HTML text-level semantics
-  - HTML:Flow content
-  - HTML:Palpable Content
-  - HTML:Phrasing content
-  - Reference
-  - Subscript
-  - Web
-  - sub
 browser-compat: html.elements.sub
 ---
 
@@ -69,7 +56,7 @@ Traditional footnotes are denoted using numbers which are rendered in subscript.
 </p>
 ```
 
-The resulting output looks like this:
+#### Result
 
 {{EmbedLiveSample("Footnote_numbers", 650, 80)}}
 
@@ -77,14 +64,14 @@ The resulting output looks like this:
 
 In mathematics, families of variables related to the same concept (such as distances along the same axis) are represented using the same variable name with a subscript following. For example:
 
-```html
+```html-nolint
 <p>
   The horizontal coordinates' positions along the X-axis are represented as
   <var>x<sub>1</sub></var> … <var>x<sub>n</sub></var>.
 </p>
 ```
 
-The resulting output:
+#### Result
 
 {{EmbedLiveSample("Variable_subscripts", 650, 80)}}
 
@@ -102,7 +89,7 @@ Another example:
 </p>
 ```
 
-The output:
+#### Result
 
 {{EmbedLiveSample("Chemical_formulas", 650, 120)}}
 
@@ -112,15 +99,15 @@ The output:
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>
       <td>
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#flow_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#flow_content"
           >Flow content</a
         >,
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#phrasing_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#phrasing_content"
           >phrasing content</a
         >, palpable content.
       </td>
@@ -128,7 +115,7 @@ The output:
     <tr>
       <th scope="row">Permitted content</th>
       <td>
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#phrasing_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#phrasing_content"
           >Phrasing content</a
         >.
       </td>
@@ -141,7 +128,7 @@ The output:
       <th scope="row">Permitted parents</th>
       <td>
         Any element that accepts
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#phrasing_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#phrasing_content"
           >phrasing content</a
         >.
       </td>

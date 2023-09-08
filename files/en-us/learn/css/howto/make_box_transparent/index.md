@@ -1,13 +1,7 @@
 ---
 title: How to make a box semi-transparent
 slug: Learn/CSS/Howto/Make_box_transparent
-tags:
-  - Basic
-  - Beginner
-  - CSS
-  - CSS:Getting_Started
-  - Guide
-  - Web
+page-type: learn-faq
 ---
 
 {{LearnSidebar}}
@@ -32,4 +26,4 @@ Try changing the opacity and alpha channel values in the below examples to see m
 
 ## See also
 
-- [Applying color to HTML elements using CSS.](/en-US/docs/Web/CSS/CSS_Colors/Applying_color)
+- [Applying color to HTML elements using CSS.](/en-US/docs/Web/CSS/CSS_colors/Applying_color)

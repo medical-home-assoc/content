@@ -1,15 +1,7 @@
 ---
 title: What are browser developer tools?
 slug: Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools
-tags:
-  - Beginner
-  - Browser
-  - CSS
-  - CodingScripting
-  - Dev Tools
-  - HTML
-  - JavaScript
-  - Learn
+page-type: learn-faq
 ---
 
 {{QuicklinksWithSubPages("Learn/Common_questions")}}
@@ -26,11 +18,9 @@ The devtools live inside your browser in a subwindow that looks roughly like thi
 
 How do you pull it up? Three ways:
 
-- **_Keyboard:_** _<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>_, except
+- **_Keyboard:_**
 
-  - **Internet Explorer and Edge:**
-
-    <kbd>F12</kbd>
+  - **Windows:** _<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>_ or <kbd>F12</kbd>
 
   - **macOS:** _<kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>I</kbd>_
 
@@ -54,17 +44,7 @@ The developer tools usually open by default to the inspector, which looks someth
 If you _don't_ see the inspector,
 
 - Tap/click the _Inspector_ tab.
-- In Internet Explorer, tap/click _DOM Explorer,_ or press
-
-  <kbd>Ctrl</kbd>
-
-  \+
-
-  <kbd>1</kbd>
-
-  .
-
-- In Microsoft Edge, or Opera, tap/click Elements.
+- In Chrome, Microsoft Edge, or Opera, tap/click Elements.
 - In Safari, the controls are not so clearly presented, but you should see the HTML if you haven't selected something else to appear in the window. Press the _Style_ button to see the CSS.
 
 ### Exploring the DOM inspector
@@ -125,8 +105,6 @@ To get to the debugger:
 **Firefox**: Select ![Firefox menu icon that has more options to customize and control Firefox.](2014-01-10-13-08-08-f52b8c.png) ➤ _Web Developer_ ➤ _Debugger_ or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> to open the JavaScript Debugger. If the tools are already displayed, click on the **Debugger** tab.
 
 **Chrome**: Open the Developer tools and then select the **Sources** tab. (Opera works the same way.)
-
-**Edge and Internet Explorer 11**: Press <kbd>F12</kbd> and then, <kbd>Ctrl</kbd> + <kbd>3</kbd>, or if the tools are already displayed, click on the Debugger tab.
 
 **Safari**: Open the Developer Tools and then select the Debugger tab.
 
@@ -194,12 +172,12 @@ document.querySelector("html").style.backgroundColor = "purple";
 ```
 
 ```js
-const myWordmark = document.createElement("img");
-myWordmark.setAttribute(
+const loginImage = document.createElement("img");
+loginImage.setAttribute(
   "src",
-  "https://blog.mozilla.org/press/wp-content/themes/OneMozilla/img/mozilla-wordmark.png"
+  "https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png",
 );
-document.querySelector("h1").appendChild(myWordmark);
+document.querySelector("h1").appendChild(loginImage);
 ```
 
 Now try entering the following incorrect versions of the code and see what you get.
@@ -213,12 +191,12 @@ document.cheeseSelector("html").style.backgroundColor = "purple";
 ```
 
 ```js example-bad
-const myWordmark = document.createElement("img");
-myBanana.setAttribute(
+const loginImage = document.createElement("img");
+banana.setAttribute(
   "src",
-  "https://blog.mozilla.org/press/wp-content/themes/OneMozilla/img/mozilla-wordmark.png"
+  "https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png",
 );
-document.querySelector("h1").appendChild(myWordmark);
+document.querySelector("h1").appendChild(loginImage);
 ```
 
 You'll start to see the kind of errors that the browser returns. Often these errors are fairly cryptic, but it should be pretty simple to figure these problems out!

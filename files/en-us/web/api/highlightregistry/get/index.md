@@ -1,18 +1,15 @@
 ---
-title: HighlightRegistry.get()
+title: "HighlightRegistry: get() method"
+short-title: get()
 slug: Web/API/HighlightRegistry/get
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - CSS Custom Highlight API
-  - Reference
-  - get
+status:
+  - experimental
 browser-compat: api.HighlightRegistry.get
 spec-urls: https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get
 ---
 
-{{APIRef("CSS Custom Highlight API")}}
+{{APIRef("CSS Custom Highlight API")}}{{SeeCompatTable}}
 
 The **`get()`** method of the {{domxref("HighlightRegistry")}} interface returns the named {{domxref("Highlight")}} object from the registry.
 

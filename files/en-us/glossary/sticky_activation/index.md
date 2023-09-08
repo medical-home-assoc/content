@@ -2,11 +2,9 @@
 title: Sticky activation
 slug: Glossary/Sticky_activation
 page-type: glossary-definition
-tags:
-  - Sticky activation
-  - Glossary
-  - JavaScript
 ---
+
+{{GlossarySidebar}}
 
 **Sticky activation** (or "sticky user activation") is a window state that indicates a user has pressed a button, moved a mouse, used a menu, or performed some other user interaction.
 

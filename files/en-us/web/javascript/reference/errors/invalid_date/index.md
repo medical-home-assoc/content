@@ -2,11 +2,6 @@
 title: "RangeError: invalid date"
 slug: Web/JavaScript/Reference/Errors/Invalid_date
 page-type: javascript-error
-tags:
-  - Error
-  - Errors
-  - JavaScript
-  - RangeError
 ---
 
 {{jsSidebar("Errors")}}
@@ -16,7 +11,7 @@ has been provided to {{jsxref("Date")}} or {{jsxref("Date.parse()")}}.
 
 ## Message
 
-```
+```plain
 RangeError: Invalid time value (V8-based)
 RangeError: invalid date (Firefox)
 RangeError: Invalid Date (Safari)

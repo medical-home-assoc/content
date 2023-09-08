@@ -2,24 +2,13 @@
 title: String.prototype.padStart()
 slug: Web/JavaScript/Reference/Global_Objects/String/padStart
 page-type: javascript-instance-method
-tags:
-  - Advanced
-  - Intermediate
-  - JavaScript
-  - Method
-  - Prototype
-  - Reference
-  - String
-  - Polyfill
 browser-compat: javascript.builtins.String.padStart
 ---
 
 {{JSRef}}
 
-The **`padStart()`** method pads the
-current string with another string (multiple times, if needed) until the resulting
-string reaches the given length. The padding is applied from the start of the
-current string.
+The **`padStart()`** method of {{jsxref("String")}} values pads this string with another string (multiple times, if needed) until the resulting
+string reaches the given length. The padding is applied from the start of this string.
 
 {{EmbedInteractiveExample("pages/js/string-padstart.html")}}
 
@@ -34,7 +23,7 @@ padStart(targetLength, padString)
 
 - `targetLength`
   - : The length of the resulting string once the current `str` has
-    been padded. If the value is less than `str.length`, then
+    been padded. If the value is less than or equal to `str.length`, then
     `str` is returned as-is.
 - `padString` {{optional_inline}}
   - : The string to pad the current `str` with. If

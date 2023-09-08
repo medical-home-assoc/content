@@ -2,11 +2,9 @@
 title: Delta
 slug: Glossary/Delta
 page-type: glossary-definition
-tags:
-  - Delta
-  - difference
-  - value
 ---
+
+{{GlossarySidebar}}
 
 The term **delta** refers to the difference between two values or states.
 

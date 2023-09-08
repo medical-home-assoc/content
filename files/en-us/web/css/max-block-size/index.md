@@ -2,19 +2,6 @@
 title: max-block-size
 slug: Web/CSS/max-block-size
 page-type: css-property
-tags:
-  - CSS
-  - CSS Logical Property
-  - CSS Property
-  - Layout
-  - Maximum Height
-  - Maximum Width
-  - Reference
-  - height
-  - max-block-size
-  - recipe:css-property
-  - size
-  - width
 browser-compat: css.properties.max-block-size
 ---
 
@@ -133,7 +120,11 @@ After that come the classes `horizontal` and `vertical`, which add the {{cssxref
   padding: 4px;
   background-color: #abcdef;
   color: #000;
-  font: 16px "Open Sans", "Helvetica", "Arial", sans-serif;
+  font:
+    16px "Open Sans",
+    "Helvetica",
+    "Arial",
+    sans-serif;
   max-block-size: 160px;
   min-block-size: 100px;
 }

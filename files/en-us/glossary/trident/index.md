@@ -2,11 +2,9 @@
 title: Trident
 slug: Glossary/Trident
 page-type: glossary-definition
-tags:
-  - Browser
-  - Infrastructure
-  - Trident
 ---
+
+{{GlossarySidebar}}
 
 Trident (or MSHTML) was a layout engine that powered {{Glossary("Microsoft Internet Explorer","Internet Explorer")}}. A Trident {{Glossary("fork")}} called _EdgeHTML_ replaced Trident in Internet Explorer's successor, {{Glossary("Microsoft Edge","Edge")}}.
 

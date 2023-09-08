@@ -1,13 +1,7 @@
 ---
 title: Cross-browser audio basics
 slug: Web/Guide/Audio_and_video_delivery/Cross-browser_audio_basics
-tags:
-  - Apps
-  - Audio
-  - Guide
-  - HTML
-  - Media
-  - events
+page-type: guide
 ---
 
 {{QuickLinksWithSubPages("/en-US/docs/Web/Guide/Audio_and_video_delivery")}}
@@ -492,7 +486,7 @@ window.onload = () => {
   audio.addEventListener("timeupdate", () => {
     // Sets the percentage
     bar.style.width = `${Math.floor(
-      (audio.currentTime / audio.duration) * 100
+      (audio.currentTime / audio.duration) * 100,
     )}%`;
   });
 };

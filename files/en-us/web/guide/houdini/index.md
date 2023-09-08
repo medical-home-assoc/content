@@ -1,13 +1,7 @@
 ---
 title: CSS Houdini
 slug: Web/Guide/Houdini
-tags:
-  - API
-  - CSS
-  - Houdini
-  - JavaScript
-  - Landing
-  - Web
+page-type: guide
 ---
 
 <section id="Quick_links">
@@ -44,7 +38,7 @@ no pre-processors, post-processors or JavaScript frameworks needed.
 CSS.paintWorklet.addModule("csscomponent.js");
 ```
 
-This added module contains {{domxref("PaintWorklet.registerPaint")}} functions,
+This added module contains {{domxref("PaintWorkletGlobalScope.registerPaint")}} functions,
 which register completely configurable worklets.
 
 > **Note:** You can write your own worklets, or install components created by other people.

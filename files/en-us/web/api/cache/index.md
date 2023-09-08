@@ -2,16 +2,6 @@
 title: Cache
 slug: Web/API/Cache
 page-type: web-api-interface
-tags:
-  - API
-  - Cache
-  - Cache API
-  - Interface
-  - Offline
-  - Reference
-  - Service Workers
-  - Service worker API
-  - Storage
 browser-compat: api.Cache
 ---
 
@@ -83,9 +73,9 @@ self.addEventListener("activate", (event) => {
             console.log("Deleting out of date cache:", cacheName);
             return caches.delete(cacheName);
           }
-        })
-      )
-    )
+        }),
+      ),
+    ),
   );
 });
 
@@ -111,7 +101,7 @@ self.addEventListener("fetch", (event) => {
           console.log(
             " No response for %s found in cache. About to fetch " +
               "from network…",
-            event.request.url
+            event.request.url,
           );
 
           // We call .clone() on the request since we might use it
@@ -123,7 +113,7 @@ self.addEventListener("fetch", (event) => {
             console.log(
               "  Response for %s from network is: %O",
               event.request.url,
-              response
+              response,
             );
 
             if (
@@ -172,7 +162,7 @@ self.addEventListener("fetch", (event) => {
 
           throw error;
         });
-    })
+    }),
   );
 });
 ```

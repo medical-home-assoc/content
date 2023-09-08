@@ -2,11 +2,6 @@
 title: handler.getPrototypeOf()
 slug: Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/getPrototypeOf
 page-type: javascript-instance-method
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Proxy
 browser-compat: javascript.builtins.Proxy.handler.getPrototypeOf
 ---
 
@@ -109,13 +104,13 @@ const p = new Proxy(obj, {
 });
 Object.getPrototypeOf(p); // TypeError: "foo" is not an object or null
 
-const obj = Object.preventExtensions({});
-const p = new Proxy(obj, {
+const obj2 = Object.preventExtensions({});
+const p2 = new Proxy(obj2, {
   getPrototypeOf(target) {
     return {};
   },
 });
-Object.getPrototypeOf(p); // TypeError: expected same prototype value
+Object.getPrototypeOf(p2); // TypeError: expected same prototype value
 ```
 
 ## Specifications

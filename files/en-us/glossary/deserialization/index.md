@@ -2,11 +2,9 @@
 title: Deserialization
 slug: Glossary/Deserialization
 page-type: glossary-definition
-tags:
-  - Deserialization
-  - Deserialize
-  - JavaScript
 ---
+
+{{GlossarySidebar}}
 
 The process whereby a lower-level format (e.g. that has been transferred over a network, or stored in a data store) is translated into a readable object or other data structure.
 

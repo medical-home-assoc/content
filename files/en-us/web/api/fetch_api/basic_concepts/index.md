@@ -2,14 +2,6 @@
 title: Fetch basic concepts
 slug: Web/API/Fetch_API/Basic_concepts
 page-type: guide
-tags:
-  - API
-  - Fetch
-  - Fetch API
-  - XMLHttpRequest
-  - concepts
-  - guard
-  - request
 ---
 
 {{DefaultAPISidebar("Fetch API")}}
@@ -62,8 +54,8 @@ When a new {{domxref("Headers")}} object is created using the {{domxref("Headers
     </tr>
     <tr>
       <td>
-        {{domxref("Response.error","error()")}} or
-        {{domxref("Response.redirect","redirect()")}} methods
+        {{domxref("Response.error_static", "Response.error()")}} or
+        {{domxref("Response.redirect_static", "Response.redirect()")}} methods
       </td>
       <td><code>immutable</code></td>
     </tr>

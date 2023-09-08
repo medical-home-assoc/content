@@ -2,10 +2,6 @@
 title: MDN Web Docs roles and teams
 slug: MDN/Community/Roles_teams
 page-type: mdn-community-guide
-tags:
-  - meta
-  - community-guidelines
-  - governance
 ---
 
 {{MDNSidebar}}
@@ -52,7 +48,7 @@ As a contributor, you can get involved with the project by engaging in the follo
 To be a contributor, you must follow:
 
 - [Mozilla's code of conduct](https://github.com/mdn/mdn-community/blob/main/CODE_OF_CONDUCT.md)
-- [MDN's contribution guidelines](https://github.com/mdn/mdn-community/blob/main/CONTRIBUTING.md)
+- Contribution guidelines (check the `CONTRIBUTING.md` file in each repository; for example, these are the [contribution guidelines](https://github.com/mdn/content/blob/main/CONTRIBUTING.md) for the `mdn/content` repository).
 
 **Privileges:**
 
@@ -244,6 +240,7 @@ TODO: Edit the section after updating the links
 ### Nominating a spotlight contributor
 
 See who can be a [spotlight contributor](#spotlight_contributor).
+
 To nominate someone as a spotlight contributor, open an issue on GitHub:
 
 1. On the `Issues` tab in the `mdn/mdn` repository, click the [**New issue**](https://github.com/mdn/mdn/issues/new/choose) button on the right.

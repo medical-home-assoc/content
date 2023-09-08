@@ -2,10 +2,9 @@
 title: Transient activation
 slug: Glossary/Transient_activation
 page-type: glossary-definition
-tags:
-  - Transient activation
-  - JavaScript
 ---
+
+{{GlossarySidebar}}
 
 **Transient activation** (or "transient user activation") is a window state that indicates a user has recently pressed a button, moved a mouse, used a menu, or performed some other user interaction.
 

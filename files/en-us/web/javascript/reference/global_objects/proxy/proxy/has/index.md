@@ -2,11 +2,6 @@
 title: handler.has()
 slug: Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/has
 page-type: javascript-instance-method
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Proxy
 browser-compat: javascript.builtins.Proxy.handler.has
 ---
 
@@ -109,5 +104,5 @@ const p = new Proxy(obj, {
 
 - {{jsxref("Proxy")}}
 - [`Proxy()` constructor](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy)
-- {{jsxref("Operators/in", "in")}} operator
+- {{jsxref("Operators/in", "in")}}
 - {{jsxref("Reflect.has()")}}

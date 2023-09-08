@@ -2,11 +2,6 @@
 title: 'TypeError: "x" is not a function'
 slug: Web/JavaScript/Reference/Errors/Not_a_function
 page-type: javascript-error
-tags:
-  - Error
-  - Errors
-  - JavaScript
-  - TypeError
 ---
 
 {{jsSidebar("Errors")}}
@@ -16,7 +11,7 @@ value from a function, but the value is not actually a function.
 
 ## Message
 
-```
+```plain
 TypeError: "x" is not a function. (V8-based & Firefox & Safari)
 ```
 

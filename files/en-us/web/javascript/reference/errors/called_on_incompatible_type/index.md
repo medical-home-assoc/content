@@ -2,11 +2,6 @@
 title: "TypeError: X.prototype.y called on incompatible type"
 slug: Web/JavaScript/Reference/Errors/Called_on_incompatible_type
 page-type: javascript-error
-tags:
-  - Error
-  - Errors
-  - JavaScript
-  - TypeError
 ---
 
 {{jsSidebar("Errors")}}
@@ -17,7 +12,7 @@ the type expected by the function.
 
 ## Message
 
-```
+```plain
 TypeError: Method Set.prototype.add called on incompatible receiver undefined (V8-based)
 TypeError: Bind must be called on a function (V8-based)
 TypeError: Function.prototype.toString called on incompatible object (Firefox)

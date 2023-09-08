@@ -2,25 +2,19 @@
 title: Object.prototype.hasOwnProperty()
 slug: Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
 page-type: javascript-instance-method
-tags:
-  - JavaScript
-  - Method
-  - Object
-  - Prototype
-  - hasOwnProperty
 browser-compat: javascript.builtins.Object.hasOwnProperty
 ---
 
 {{JSRef}}
 
-The **`hasOwnProperty()`** method returns a boolean indicating whether the
+The **`hasOwnProperty()`** method of {{jsxref("Object")}} instances returns a boolean indicating whether this
 object has the specified property as its own property (as opposed to inheriting
 it).
 
-{{EmbedInteractiveExample("pages/js/object-prototype-hasownproperty.html")}}
-
 > **Note:** {{jsxref("Object.hasOwn()")}} is recommended over
 > `hasOwnProperty()`, in browsers where it is supported.
+
+{{EmbedInteractiveExample("pages/js/object-prototype-hasownproperty.html")}}
 
 ## Syntax
 
@@ -157,7 +151,7 @@ Object.prototype.hasOwnProperty.call(foo, "bar"); // true
 
 // Use another Object's hasOwnProperty
 // and call it with 'this' set to foo
-({}.hasOwnProperty.call(foo, "bar")); // true
+({}).hasOwnProperty.call(foo, "bar"); // true
 ```
 
 Note that in the first two cases there are no newly created objects.
@@ -193,4 +187,4 @@ external object's `hasOwnProperty()`.
 - {{jsxref("Object.getOwnPropertyNames()")}}
 - {{jsxref("Statements/for...in", "for...in")}}
 - {{jsxref("Operators/in", "in")}}
-- [JavaScript Guide: Inheritance revisited](/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [Inheritance and the prototype chain](/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)

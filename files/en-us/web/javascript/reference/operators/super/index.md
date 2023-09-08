@@ -2,13 +2,6 @@
 title: super
 slug: Web/JavaScript/Reference/Operators/super
 page-type: javascript-language-feature
-tags:
-  - Classes
-  - ECMAScript 2015
-  - JavaScript
-  - Language feature
-  - Left-hand-side expressions
-  - Operator
 browser-compat: javascript.operators.super
 ---
 
@@ -34,7 +27,7 @@ The `super` keyword can be used in two ways: as a "function call" (`super(...arg
 
 > **Note:** `super` is a keyword and these are special syntactic constructs. `super` is not a variable that points to the prototype object. Attempting to read `super` itself is a {{jsxref("SyntaxError")}}.
 >
-> ```js example-bad
+> ```js-nolint example-bad
 > const child = {
 >   myParent() {
 >     console.log(super); // SyntaxError: 'super' keyword unexpected here
@@ -76,14 +69,12 @@ class Rectangle {
 
 class Square extends Rectangle {
   constructor(length) {
-    this.height; // ReferenceError, super needs to be called first!
-
     // Here, it calls the parent class's constructor with lengths
     // provided for the Rectangle's width and height
     super(length, length);
 
     // Note: In derived classes, super() must be called before you
-    // can use 'this'. Leaving this out will cause a reference error.
+    // can use 'this'. Moving this to the top causes a ReferenceError.
     this.name = "Square";
   }
 }

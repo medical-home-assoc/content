@@ -1,14 +1,7 @@
 ---
 title: Adding captions and subtitles to HTML video
-slug: >-
-  Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video
-tags:
-  - HTML
-  - Media
-  - WebVTT
-  - captions
-  - subtitles
-  - track
+slug: Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video
+page-type: guide
 ---
 
 {{QuickLinksWithSubPages("/en-US/docs/Web/Guide/Audio_and_video_delivery")}}
@@ -170,8 +163,8 @@ if (video.textTracks) {
       createMenuItem(
         `subtitles-${video.textTracks[i].language}`,
         video.textTracks[i].language,
-        video.textTracks[i].label
-      )
+        video.textTracks[i].label,
+      ),
     );
   }
   videoContainer.appendChild(subtitlesMenu);
@@ -291,7 +284,7 @@ For example, to change the text color of the text track cues you can write:
 
 If the WebVTT file uses [voice spans](https://w3c.github.io/webvtt/#dfn-webvtt-cue-voice-span), which allow cues to be defined as having a particular "voice":
 
-```
+```plain
 0
 00:00:00.000 --> 00:00:12.000
 <v Test>[Test]</v>
@@ -312,15 +305,9 @@ Then this specific 'voice' will be stylable like so:
 
 [Browser support for WebVTT and the `<track>` element](https://caniuse.com/webvtt) is fairly good, although some browsers differ slightly in their implementation.
 
-### Internet Explorer
-
-Internet Explorer 10+ subtitles are enabled by default, and the default controls contain a button and a menu that offers the same functionality as the menu we just built. The `default` attribute is also supported.
-
-> **Note:** IE will completely ignore WebVTT files unless you define the MIME type. This can easily be done by adding an `.htaccess` file to an appropriate directory that contains `AddType text/vtt .vtt`.
-
 ### Safari
 
-Safari 6.1+ has similar support to Internet Explorer 10+, displaying a menu with the different available options, with the addition of an "Auto" option, which allows the browser to choose.
+In Safari 6.1+, subtitles are enabled by default, and the default controls contain a button and a menu that offers the same functionality as the menu we just built, along with an "Auto" option which allows the browser to choose. The `default` attribute is also supported.
 
 ### Chrome and Opera
 

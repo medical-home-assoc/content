@@ -2,11 +2,9 @@
 title: Cipher
 slug: Glossary/Cipher
 page-type: glossary-definition
-tags:
-  - Cryptography
-  - Privacy
-  - Security
 ---
+
+{{GlossarySidebar}}
 
 In {{glossary("cryptography")}}, a **cipher** is an algorithm that can {{glossary("encryption", "encode")}} {{glossary("Plaintext")}} to make it unreadable, and to {{glossary("decryption", "decode")}} it back.
 

@@ -2,10 +2,9 @@
 title: Cipher suite
 slug: Glossary/Cipher_suite
 page-type: glossary-definition
-tags:
-  - Cryptography
-  - Security
 ---
+
+{{GlossarySidebar}}
 
 A cipher suite is a combination of a key exchange algorithm, authentication method, bulk encryption {{Glossary("cipher")}}, and message authentication code.
 

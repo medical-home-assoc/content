@@ -2,11 +2,9 @@
 title: CMS
 slug: Glossary/CMS
 page-type: glossary-definition
-tags:
-  - CMS
-  - Composing
-  - Content management system
 ---
+
+{{GlossarySidebar}}
 
 A CMS (Content Management System) is software that allows users to publish, organize, change, or remove various kinds of content, not only text but also embedded images, video, audio, and interactive code.
 

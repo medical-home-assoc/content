@@ -2,17 +2,6 @@
 title: column-rule-color
 slug: Web/CSS/column-rule-color
 page-type: css-property
-tags:
-  - CSS
-  - CSS Multi-column Layout
-  - CSS Property
-  - HTML Colors
-  - Reference
-  - Styles
-  - Styling HTML
-  - column-rule-color
-  - columns
-  - recipe:css-property
 browser-compat: css.properties.column-rule-color
 ---
 
@@ -94,4 +83,4 @@ p {
 
 - The {{cssxref("&lt;color&gt;")}} data type
 - Other color-related properties: {{cssxref("color")}}, {{cssxref("background-color")}}, {{cssxref("border-color")}}, {{cssxref("outline-color")}}, {{cssxref("text-decoration-color")}}, {{cssxref("text-emphasis-color")}}, {{cssxref("text-shadow")}}, and {{cssxref("caret-color")}}
-- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/CSS_Colors/Applying_color)
+- [Applying color to HTML elements using CSS](/en-US/docs/Web/CSS/CSS_colors/Applying_color)

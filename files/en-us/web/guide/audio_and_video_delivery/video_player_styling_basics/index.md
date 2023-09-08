@@ -1,12 +1,7 @@
 ---
 title: Video player styling basics
 slug: Web/Guide/Audio_and_video_delivery/Video_player_styling_basics
-tags:
-  - Apps
-  - Guide
-  - Media
-  - Styling
-  - Video
+page-type: guide
 ---
 
 {{QuickLinksWithSubPages("/en-US/docs/Web/Guide/Audio_and_video_delivery")}}
@@ -191,7 +186,7 @@ The {{htmlelement("progress") }} element has the following basic style set up:
 }
 ```
 
-Like the {{htmlelement("button") }} elements, {{htmlelement("progress") }} also has a default border, which is removed here. It is also given a slight rounded corner for aesthetic reasons. The `color` property is also defined here as Internet Explorer uses this defined color for styling the progress bar's background color as it increases.
+Like the {{htmlelement("button") }} elements, {{htmlelement("progress") }} also has a default border, which is removed here. It is also given a slight rounded corner for aesthetic reasons.
 
 As mentioned in the [previous article](/en-US/docs/Web/Guide/Audio_and_video_delivery/cross_browser_video_player), there is a fallback provided for browsers that do not support the {{htmlelement("progress") }} element; this also needs to be styled appropriately:
 
@@ -278,7 +273,7 @@ video.addEventListener(
   () => {
     changeButtonState("playpause");
   },
-  false
+  false,
 );
 
 video.addEventListener(
@@ -286,7 +281,7 @@ video.addEventListener(
   () => {
     changeButtonState("playpause");
   },
-  false
+  false,
 );
 
 stop.addEventListener("click", (e) => {
@@ -351,7 +346,7 @@ video.addEventListener(
   () => {
     checkVolume();
   },
-  false
+  false,
 );
 ```
 

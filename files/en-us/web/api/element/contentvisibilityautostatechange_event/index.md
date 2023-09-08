@@ -1,17 +1,16 @@
 ---
-title: 'Element: contentvisibilityautostatechange event'
+title: "Element: contentvisibilityautostatechange event"
+short-title: contentvisibilityautostatechange
 slug: Web/API/Element/contentvisibilityautostatechange_event
 page-type: web-api-event
-tags:
-  - Event
-  - Reference
-  - Experimental
+status:
+  - experimental
 browser-compat: api.Element.contentvisibilityautostatechange_event
 ---
 
 {{APIRef("CSS Containment")}}{{SeeCompatTable}}
 
-The **`contentvisibilityautostatechange`** event fires on any element with {{cssxref("content-visibility", "content-visibility: auto")}} set on it when it starts or stops being [relevant to the user](/en-US/docs/Web/CSS/CSS_Containment#relevant_to_the_user) and [skipping its contents](/en-US/docs/Web/CSS/CSS_Containment#skips_its_contents).
+The **`contentvisibilityautostatechange`** event fires on any element with {{cssxref("content-visibility", "content-visibility: auto")}} set on it when it starts or stops being [relevant to the user](/en-US/docs/Web/CSS/CSS_containment#relevant_to_the_user) and [skipping its contents](/en-US/docs/Web/CSS/CSS_containment#skips_its_contents).
 
 While the element is not relevant (between the start and end events), the user agent skips an element's rendering, including layout and painting, which can significantly improve page rendering speed.
 The {{domxref("element/contentvisibilityautostatechange_event", "contentvisibilityautostatechange")}} event provides a way for an app's code to also start or stop rendering processes (e.g. drawing on a {{htmlelement("canvas")}}) when they are not needed, thereby conserving processing power.
@@ -24,7 +23,7 @@ Use the event name in methods like {{domxref("EventTarget.addEventListener", "ad
 
 ```js
 addEventListener("contentvisibilityautostatechange", (event) => {});
-contentvisibilityautostatechange = (event) => {};
+oncontentvisibilityautostatechange = (event) => {};
 ```
 
 > **Note:** The event object is of type {{domxref("ContentVisibilityAutoStateChangeEvent")}}.
@@ -32,9 +31,9 @@ contentvisibilityautostatechange = (event) => {};
 ## Examples
 
 ```js
-const canvasElem = document.querySelector('canvas');
+const canvasElem = document.querySelector("canvas");
 
-canvasElem.addEventListener('contentvisibilityautostatechange', stateChanged);
+canvasElem.addEventListener("contentvisibilityautostatechange", stateChanged);
 canvasElem.style.contentVisibility = "auto";
 
 function stateChanged(event) {
@@ -47,7 +46,7 @@ function stateChanged(event) {
 
 // Call this when the canvas updates need to start.
 function startCanvasUpdates(canvas) {
-  // … 
+  // …
 }
 
 // Call this when the canvas updates need to stop.
@@ -67,6 +66,6 @@ function stopCanvasUpdates(canvas) {
 ## See also
 
 - {{domxref("ContentVisibilityAutoStateChangeEvent")}}
-- [CSS Containment](/en-US/docs/Web/CSS/CSS_Containment)
+- [CSS Containment](/en-US/docs/Web/CSS/CSS_containment)
 - The {{cssxref("content-visibility")}} property
 - The {{cssxref("contain")}} property

@@ -2,13 +2,9 @@
 title: HTTP/2
 slug: Glossary/HTTP_2
 page-type: glossary-definition
-tags:
-  - HTTP
-  - Infrastructure
-  - Reference
-  - Web Performance
-  - "l10n:priority"
 ---
+
+{{GlossarySidebar}}
 
 **HTTP/2** is a major revision of the [HTTP network protocol](/en-US/docs/Web/HTTP/Basics_of_HTTP).
 

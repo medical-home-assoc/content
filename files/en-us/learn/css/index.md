@@ -1,16 +1,7 @@
 ---
 title: Learn to style HTML using CSS
 slug: Learn/CSS
-tags:
-  - Beginner
-  - CSS
-  - CodingScripting
-  - Debugging
-  - Landing
-  - Style
-  - Topic
-  - length
-  - specificity
+page-type: learn-topic
 ---
 
 {{LearnSidebar}}

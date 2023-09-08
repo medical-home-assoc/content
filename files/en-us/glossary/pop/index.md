@@ -2,10 +2,9 @@
 title: POP3
 slug: Glossary/POP
 page-type: glossary-definition
-tags:
-  - Beginner
-  - Infrastructure
 ---
+
+{{GlossarySidebar}}
 
 **POP3** (Post Office Protocol) is a very common {{glossary("protocol")}} for getting emails from a mail server over a {{glossary("TCP")}} connection. POP3 does not support folders, unlike the more recent {{Glossary("IMAP")}}, which is harder to implement because of its more complex structure.
 

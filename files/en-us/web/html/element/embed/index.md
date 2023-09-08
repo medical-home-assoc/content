@@ -1,17 +1,7 @@
 ---
-title: '<embed>: The Embed External Content element'
+title: "<embed>: The Embed External Content element"
 slug: Web/HTML/Element/embed
 page-type: html-element
-tags:
-  - Element
-  - Embedding Content
-  - External content
-  - HTML
-  - HTML embedded content
-  - Plugins
-  - Reference
-  - Web
-  - embed
 browser-compat: html.elements.embed
 ---
 
@@ -21,7 +11,7 @@ The **`<embed>`** [HTML](/en-US/docs/Web/HTML) element embeds external content a
 
 {{EmbedInteractiveExample("pages/tabbed/embed.html", "tabbed-standard")}}
 
-> **Note:** This topic documents only the element that is defined as part of the [HTML Living Standard](https://html.spec.whatwg.org/#the-embed-element). It does not address earlier, non-standardized implementation of the element.
+> **Note:** This topic documents only the element that is defined as part of the [HTML Living Standard](https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element). It does not address earlier, non-standardized implementation of the element.
 
 Keep in mind that most modern browsers have deprecated and removed support for browser plug-ins, so relying upon `<embed>` is generally not wise if you want your site to be operable on the average user's browser.
 
@@ -29,13 +19,13 @@ Keep in mind that most modern browsers have deprecated and removed support for b
 
 This element's attributes include the [global attributes](/en-US/docs/Web/HTML/Global_attributes).
 
-- {{htmlattrdef("height")}}
+- `height`
   - : The displayed height of the resource, in [CSS pixels](https://drafts.csswg.org/css-values/#px). This must be an absolute value; percentages are _not_ allowed.
-- {{htmlattrdef("src")}}
+- `src`
   - : The URL of the resource being embedded.
-- {{htmlattrdef("type")}}
+- `type`
   - : The {{glossary("MIME type")}} to use to select the plug-in to instantiate.
-- {{htmlattrdef("width")}}
+- `width`
   - : The displayed width of the resource, in [CSS pixels](https://drafts.csswg.org/css-values/#px). This must be an absolute value; percentages are _not_ allowed.
 
 ## Usage notes
@@ -63,18 +53,18 @@ Use the [`title` attribute](/en-US/docs/Web/HTML/Global_attributes/title) on an 
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>
       <td>
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#flow_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#flow_content"
           >Flow content</a
         >,
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#phrasing_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#phrasing_content"
           >phrasing content</a
         >, embedded content, interactive content,
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#palpable_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#palpable_content"
           >palpable content</a
         >.
       </td>

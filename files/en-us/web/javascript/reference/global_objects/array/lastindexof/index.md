@@ -2,19 +2,12 @@
 title: Array.prototype.lastIndexOf()
 slug: Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf
 page-type: javascript-instance-method
-tags:
-  - Array
-  - ECMAScript 5
-  - JavaScript
-  - Method
-  - Prototype
-  - Polyfill
 browser-compat: javascript.builtins.Array.lastIndexOf
 ---
 
 {{JSRef}}
 
-The **`lastIndexOf()`** method returns the last index at which
+The **`lastIndexOf()`** method of {{jsxref("Array")}} instances returns the last index at which
 a given element can be found in the array, or -1 if it is not present. The array is
 searched backwards, starting at `fromIndex`.
 
@@ -39,7 +32,7 @@ lastIndexOf(searchElement, fromIndex)
 
 ### Return value
 
-The last index of the element in the array; **-1** if not found.
+The last index of the element in the array; `-1` if not found.
 
 ## Description
 
@@ -107,7 +100,7 @@ console.log([1, , 3].lastIndexOf(undefined)); // -1
 
 ### Calling lastIndexOf() on non-array objects
 
-The `lastIndexOf()` method reads the `length` property of `this` and then accesses each integer index.
+The `lastIndexOf()` method reads the `length` property of `this` and then accesses each property whose key is a nonnegative integer less than `length`.
 
 ```js
 const arrayLike = {
@@ -115,6 +108,7 @@ const arrayLike = {
   0: 2,
   1: 3,
   2: 2,
+  3: 5, // ignored by lastIndexOf() since length is 3
 };
 console.log(Array.prototype.lastIndexOf.call(arrayLike, 2));
 // 2
@@ -133,5 +127,10 @@ console.log(Array.prototype.lastIndexOf.call(arrayLike, 5));
 ## See also
 
 - [Polyfill of `Array.prototype.lastIndexOf` in `core-js`](https://github.com/zloirock/core-js#ecmascript-array)
+- [Indexed collections](/en-US/docs/Web/JavaScript/Guide/Indexed_collections) guide
+- {{jsxref("Array")}}
+- {{jsxref("Array.prototype.findIndex()")}}
+- {{jsxref("Array.prototype.findLastIndex()")}}
 - {{jsxref("Array.prototype.indexOf()")}}
 - {{jsxref("TypedArray.prototype.lastIndexOf()")}}
+- {{jsxref("String.prototype.lastIndexOf()")}}

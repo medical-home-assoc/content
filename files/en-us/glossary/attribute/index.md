@@ -2,10 +2,9 @@
 title: Attribute
 slug: Glossary/Attribute
 page-type: glossary-definition
-tags:
-  - CodingScripting
-  - HTML
 ---
+
+{{GlossarySidebar}}
 
 An **attribute** extends an HTML or XML {{Glossary("element")}}, changing its behavior or providing metadata.
 

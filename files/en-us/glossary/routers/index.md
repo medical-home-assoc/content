@@ -2,9 +2,9 @@
 title: Routers
 slug: Glossary/Routers
 page-type: glossary-definition
-tags:
-  - Intro
 ---
+
+{{GlossarySidebar}}
 
 There are three definitions for **routers** on the web:
 
